@@ -8,7 +8,7 @@
 #include "Pessoa.h"
 
 class Caso {
-    protected:
+    private:
         Caso() {}
         int identificao;
         std::string data;
