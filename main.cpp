@@ -20,7 +20,7 @@ int main(void) {
 
     Vestigio *v1 = new VestigioBiologico("Sangue", true);
     Vestigio *v2 = new VestigioDigital("Notebook", true);
-    Vestigio *v3 =new VestigioFisico("Faca", false);
+    Vestigio *v3 = new VestigioFisico("Faca", false);
 
     caso1.inserirVestigio(v1);
     caso1.inserirVestigio(v2);
@@ -34,5 +34,10 @@ int main(void) {
 
     std::cout << caso1 << std::endl;
 
+    delete p1;
+    delete p2;
+    delete v1;
+    delete v2;
+    delete v3;
     return 0;
 }
